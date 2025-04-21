@@ -15,7 +15,7 @@ This repository contains a robust and modular pipeline for collecting, storing, 
 
 ---
 
-## 🛠 Tech Stack
+##  Tech Stack
 
 - **Python 3.8+**
 - **PostgreSQL**
@@ -48,7 +48,7 @@ instagram-data-pipeline/
 
 ---
 
-## ⚙️ Installation
+##  Installation
 
 1. **Clone the repository**
 
