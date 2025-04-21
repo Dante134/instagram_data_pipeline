@@ -219,7 +219,7 @@ PRs are welcome! Please open an issue first for any major changes.
 
 ## 📫 Contact
 
-Have questions? Reach out at [your.email@example.com](mailto:ayushmishra256@gmail.com)
+Have questions? Reach out at [ayushmishra256@gmail.com](mailto:your.email@example.com)
 
 ---
 
