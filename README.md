@@ -4,18 +4,18 @@ This repository contains a robust and modular pipeline for collecting, storing, 
 
 ---
 
-## 📌 Features
+##  Features
 
-- ✅ Scrapes Instagram profiles, followers, and following
-- ✅ Stores structured data in a PostgreSQL database
-- ✅ Calculates mutual followers
-- ✅ Uses GPT-4 to categorize interests based on following
-- ✅ Manages scraping via a robust job scheduler
-- ✅ Avoids detection using proxies, rotating user-agents, and delays
+-  Scrapes Instagram profiles, followers, and following
+-  Stores structured data in a PostgreSQL database
+-  Calculates mutual followers
+-  Uses GPT-4 to categorize interests based on following
+-  Manages scraping via a robust job scheduler
+-  Avoids detection using proxies, rotating user-agents, and delays
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠 Tech Stack
 
 - **Python 3.8+**
 - **PostgreSQL**
@@ -26,7 +26,7 @@ This repository contains a robust and modular pipeline for collecting, storing, 
 
 ---
 
-## 📁 Project Structure
+##  Project Structure
 
 ```
 instagram-data-pipeline/
@@ -90,7 +90,7 @@ OPENAI_API_KEY=your_openai_api_key
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 ### Run the pipeline in different modes:
 
@@ -114,7 +114,7 @@ Performs interest analysis using GPT-4.
 
 ---
 
-## 🧪 Running Tests
+##  Running Tests
 
 From the project root:
 ```bash
@@ -128,7 +128,7 @@ python -m unittest tests/test_scraper.py
 
 ---
 
-## 🧩 Components Overview
+##  Components Overview
 
 ### Database Schema
 
@@ -152,7 +152,7 @@ The PostgreSQL schema includes:
 
 ---
 
-## 🛡 Anti-Detection Strategies
+##  Anti-Detection Strategies
 
 1. **Proxy rotation**
 2. **Randomized delays**
@@ -163,16 +163,16 @@ The PostgreSQL schema includes:
 
 ---
 
-## 🛠 Maintenance
+##  Maintenance
 
-- 🔁 Refresh proxy list
-- 🔄 Update user-agent strings
-- ⚙️ Monitor HTML structure changes on Instagram
-- 🧠 Periodically update interest categories
+-  Refresh proxy list
+-  Update user-agent strings
+-  Monitor HTML structure changes on Instagram
+-  Periodically update interest categories
 
 ---
 
-## ❓ Troubleshooting
+##  Troubleshooting
 
 ### Login Errors
 - Check `.env` credentials
@@ -188,7 +188,7 @@ The PostgreSQL schema includes:
 
 ---
 
-## 🔒 Security Notes
+##  Security Notes
 
 - Store secrets in `.env`, never hardcoded
 - Use SSL for database connections
@@ -196,19 +196,19 @@ The PostgreSQL schema includes:
 
 ---
 
-## 📜 License
+##  License
 
 [MIT](LICENSE)
 
 ---
 
-## 👨‍💻 Contributing
+##  Contributing
 
 PRs are welcome! Please open an issue first for any major changes.
 
 ---
 
-## 🙌 Acknowledgements
+##  Acknowledgements
 
 - OpenAI GPT-4
 - Instaloader
@@ -217,11 +217,11 @@ PRs are welcome! Please open an issue first for any major changes.
 
 ---
 
-## 📫 Contact
+##  Contact
 
 Have questions? Reach out at [ayushmishra256@gmail.com](mailto:your.email@example.com)
 
 ---
 
-**Happy Scraping & Analyzing! 🚀**
+**Happy Scraping & Analyzing! **
 
